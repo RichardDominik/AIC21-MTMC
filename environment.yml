@@ -1,0 +1,27 @@
+name: AIC21-MTMC
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.0
+  - pytorch==1.7.1
+  - torchvision==0.8.2
+  - scikit-learn==0.19.2  
+  - opencv-python>=4.1.2
+  - matplotlib>=3.2.2
+  - Cython
+  - numpy>=1.18.5
+  - Pillow
+  - PyYAML>=5.3.1
+  - scipy>=1.4.1
+  - tensorboard>=2.2
+  - tqdm>=4.41.0
+  - sklearn
+  - lap
+  - cython-bbox
+  - timm
+  - seaborn>=0.11.0
+  - pandas
+  - thop
+  - pycocotools>=2.0
